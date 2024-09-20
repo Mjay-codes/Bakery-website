@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    /* background-color: rgb(44, 207, 212); */
+    background-color:whitesmoke;
+    padding: 20px 100px;
+
+}
+span{
+    color: orange;
+    /* background-color: aqua; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.navlinks ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-family: "Poppins", sans-serif;
+   
+}
+.navlinks ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbtn button{
+    background-color: rgba(255, 123, 0, 0.863);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 30px;
+    font-family: 'poppins';
+
+}
+.navbtn button:hover{
+    background-color:rgba(121, 121, 17, 0.404) ;
+    color: black;
+    padding: 7px 12px;
+    transition: 0.5s;
+}
+.hero{
+    background-image: url(tasty-pizza-near-ingredients\ \(1\).jpg);
+    background-color: rgb(255, 123, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.sub-parent{
+    color: white;
+    text-align: center;
+}
+.sub-parent h1{
+    font-size: 120px;
+    /* font-family: "Poppins", sans-serif; ; */
+    font-family: cursive;
+}
+.sub-parent p{
+    font-size: 15px;
+}
+.sub-parent button{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 123, 0);
+    color:white ;
+    margin-top: 25px;
+    font-family: 'poppins';
+}
+.span{
+    /* font-size: 40px; */
+    color: white;
+    /* font-family: cursive; */
+} 
+
+.about{
+    height: 100vh;
+
+}
+
+.about-content h2{
+    font-size: 40px;
+    color: rgb(255, 123, 0);
+    margin-bottom: 20px;
+}
+
+.about-parent{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+ 
+}
+.about-content button{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 25px;
+    font-family: 'poppins';
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color:rgba(121, 121, 17, 0.404) ;
+    color: black;
+    padding: 7px 12px;
+    transition: 0.5s;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+    height: 70vh;
+}
+
+.parent-cta{
+    /* background-color:rgb(17, 118, 121); */
+    background-image: url(tasty-pizza-near-ingredients\ \(1\).jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 80px 250px;
+    border-radius: 10px;
+    color: white;
+}
+.parent-cta h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.parent-cta i{
+    font-size: 30px;
+    margin: 0px 10px;
+    color:  rgb(255, 123, 0);
+}
+
+.parent-cta i:hover{
+    font-size: 30px;
+    margin: 0px 10px;
+    color:  white;
+}
+.parent-cta a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.parent-cta .mail{
+    padding-top: 10px;
+}
+
+.parent-cta a:hover{
+    padding-top: 10px;
+    color: rgb(255, 123, 0);
+}
+
+.footer{
+    background-color:  rgb(255, 123, 0);
+    padding: 60px 0px;
+    padding: 100px 0;
+    
+}
+.parent-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.row2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+.row3 h3{
+    font-size: 30px;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.checkbtn{
+    font-size: 20px;
+    color: black;
+    float: right;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
